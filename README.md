@@ -5,39 +5,73 @@ Teaching Command-Line tools
 
 - navigate and manipulate the file-system;
 
-These are some of the basic commands required to navigate and manipulate the file-system in the UNIX command-line environment. They all stand for something, which can make it easy to remember. They all also come with documentation built-in using the command line - `man <commandName>`.
+<p>These are some of the basic commands required to navigate and manipulate the file-system in the UNIX command-line environment. They all stand for something, which can make it easy to remember. They all also come with documentation built-in using the command line - `man <commandName>`. </p>
+
+<p>I believe it's useful to know what they stand for as it makes the purpose really clear. Also note that most of these also have options you can pass in to get specific things done.</p>
+
+<p>Some definitions before-hand:</p>
 
 ```
-cat 
-cd 
-chmod 
-chown 
-chgrp 
-cksum 
-cmp 
-cp 
-dd 
-du 
-df 
-file 
-fsck 
-fuser 
-ln 
-ls - list files in directory
-mkdir 
-mount 
-mv 
-pax 
-pwd - print working directory
-rm 
-rmdir 
-size 
-split 
-tee 
-touch 
-type 
-umask
+file system object - such as a file, directory, or link
 ```
+
+`cat` - concatenate and list files
+
+`cd` - change directory
+
+`chmod` - change mode, change the access permissions to file system objects
+
+`chown` - change owner, change the owner of a file
+
+`chgrp` - change group, change the group associated with a file system object to one of which they are a member
+
+`cksum` 
+
+`cmp` 
+
+`cp` 
+
+`dd` 
+
+`du` 
+
+`df` 
+
+`file` 
+
+`fsck` 
+
+`fuser` 
+
+`ln` 
+
+`ls` - list files in directory
+
+`mkdir` - make directory
+
+`mount` 
+
+`mv` 
+
+`pax` 
+
+`pwd` - print working directory
+
+`rm` 
+
+`rmdir` 
+
+`size` 
+
+`split`
+
+`tee`
+
+`touch`
+
+`type`
+
+`umask`
 
 - compose processes with pipes;
 - comfortably edit a file with emacs and vim;
